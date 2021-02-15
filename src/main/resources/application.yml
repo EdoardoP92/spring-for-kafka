@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    bootstrap-servers: "#{T(spring.kafka.properties.PropertyManager).getProperty('kafka.bootstrap.address')?:'localhost:9093'}"
+    topic: "#{T(spring.kafka.properties.PropertyManager).getProperty('kafka.topic')?:'spring-for-kafka'}" 
+    consumer:
+      group-id: "#{T(spring.kafka.properties.PropertyManager).getProperty('kafka.consumer.group-id')?:'consumer-id'}" 
