@@ -8,11 +8,11 @@
 		<version>2.3.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>SpringForKafka</groupId>
-	<artifactId>SpringForKafka</artifactId>
+	<groupId>spring-for-kafka</groupId>
+	<artifactId>spring-for-kafka</artifactId>
 	<version>0.0.1</version>
-	<name>SpringForKafka</name>
-	<description>SpringForKafka</description>
+	<name>spring-for-kafka</name>
+	<description>spring-for-kafka</description>
 
 	<properties>
 		<java.version>1.8</java.version>
